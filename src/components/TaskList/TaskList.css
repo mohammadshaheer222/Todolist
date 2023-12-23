@@ -1,0 +1,44 @@
+/* .list-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.list-container {
+    justify-content: space-between;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+} */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 30%;
+    padding: 0 40px;
+    background-color: #ced1de;
+    color: black;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px black;
+
+  }
+  .delete-icon {
+    font-size: 2em;
+    color: rgb(254, 72, 72);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .delete-icon:hover{
+    transform: scale(1.1);
+  }
+  
